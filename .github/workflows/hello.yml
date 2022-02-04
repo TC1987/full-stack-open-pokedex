@@ -12,7 +12,11 @@ jobs:
       - name: Print Hello
         run: |
           echo "Hello World!"
+    steps:
+      - name: Print Date
         run: |
           date
+    steps:
+      - name: Print Current Directory
         run: |
-          ls -l 
+          ls -l
