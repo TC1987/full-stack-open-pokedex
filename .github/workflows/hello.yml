@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Print Hello
-        run: |
-          echo "Hello World!"
-          date
-          ls -l
+        run: echo "Hello World!"
+      - name: Print Date
+        run: date
+      - name: Print Directory
+        run: ls -l
